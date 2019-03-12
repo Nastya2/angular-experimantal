@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DelayDirective } from './structual-directive/delay.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DelayDirective
   ],
   imports: [
     BrowserModule,
